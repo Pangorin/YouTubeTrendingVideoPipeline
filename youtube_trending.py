@@ -1,7 +1,8 @@
 import requests
 import pandas as pd
+import os
 
-API_KEY = 'AIzaSyBo6_nAJhKKa7eMnF-5g0TIVV8dY4CUph8'
+API_KEY = os.getenv("YOUTUBE_API_KEY")
 REGION = 'VN'
 MAX_RESULTS = 50
 
